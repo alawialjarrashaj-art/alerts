@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<style>
+body{
+    margin:0;
+    overflow:hidden;
+    background:transparent;
+}
+
+iframe{
+    position:absolute;
+    border:none;
+    background:transparent;
+    pointer-events:none;
+}
+
+/* 💬 YOUTUBE CHAT (LOWERED) */
+.yt-chat{
+    top:5%;
+    left:50%;
+    transform:translateX(-50%);
+
+    width:80%;
+    height:6%;
+
+    opacity:.92;
+    z-index:30;
+}
+
+/* 🪙 COIN JAR */
+.coin-jar{
+    top:34%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    width:38%;
+    height:58%;
+
+    z-index:10;
+}
+
+/* 🔥 TIKTOK ALERTS */
+.tiktok-alert{
+    top:34%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    width:72%;
+    height:42%;
+
+    overflow:visible;
+
+    z-index:50;
+}
+
+/* ⭐ STREAMLABS + STREAMELEMENTS */
+.yt-alerts{
+    top:33%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    width:90%;
+    height:60%;
+
+    overflow:visible;
+
+    pointer-events:none;
+}
+
+/* Streamlabs (Highest) */
+.streamlabs{
+    z-index:100001;
+}
+
+/* StreamElements */
+.streamelements{
+    z-index:100000;
+}
+
+/* 🏆 LEFT BOARD */
+.left-board{
+    top:29%;
+    left:10%;
+
+    width:24%;
+    height:26%;
+
+    z-index:20;
+}
+
+/* 🏆 RIGHT BOARD */
+.right-board{
+    top:29%;
+    right:10%;
+
+    width:24%;
+    height:26%;
+
+    z-index:20;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- 🪙 COIN JAR -->
+<iframe
+class="coin-jar"
+src="https://tikfinity.zerody.one/widget/coinjar?cid=2219554">
+</iframe>
+
+<!-- 💬 RESTREAM CHAT -->
+<iframe
+class="yt-chat"
+src="https://chat.restream.io/embed?token=caf8ee16-bc92-4def-afca-49a6b06f84db">
+</iframe>
+
+<!-- 🏆 TOP LIKER -->
+<iframe
+class="left-board"
+src="https://tikfinity.zerody.one/widget/topliker?cid=2219554">
+</iframe>
+
+<!-- 🏆 TOP GIFTER -->
+<iframe
+class="right-board"
+src="https://tikfinity.zerody.one/widget/topgifter?cid=2219554">
+</iframe>
+
+<!-- 🔥 TIKTOK ALERTS SCREEN 1 -->
+<iframe
+class="tiktok-alert"
+src="https://tikfinity.zerody.one/widget/myactions?cid=2219554&screen=1">
+</iframe>
+
+<!-- 🔥 TIKTOK ALERTS SCREEN 2 -->
+<iframe
+class="tiktok-alert"
+src="https://tikfinity.zerody.one/widget/myactions?cid=2219554&screen=2">
+</iframe>
+
+<!-- ⭐ STREAMLABS SUPER CHAT (Highest Priority) -->
+<iframe
+class="yt-alerts streamlabs"
+src="https://streamlabs.com/alert-box/v3/DEADC83D4FD35151A0B1BFF9841EB18DF95A5DB398726DA6D7C2F6012346732EC7A8838BEAB44F2AF2633DB14DADCF66718851F81C55B0B7EE22E9823B3AD329143512836BFF6A45357983153AD31D6CB4151B08B1B28A8F66980F5E7471B03F26CF8CC2490C8C57FBD796019C3A9ECADEBB28F655296FC02CDE99EF56?super_chats=1">
+</iframe>
+
+<!-- ⭐ STREAMLABS SUBSCRIBERS -->
+<iframe
+class="yt-alerts streamlabs"
+src="https://streamlabs.com/alert-box/v3/DEADC83D4FD35151A0B1BFF9841EB18DF95A5DB398726DA6D7C2F6012346732EC7A8838BEAB44F2AF2633DB14DADCF66718851F81C55B0B7EE22E9823B3AD329143512836BFF6A45357983153AD31D6CB4151B08B1B28A8F66980F5E7471B03F26CF8CC2490C8C57FBD796019C3A9ECADEBB28F655296FC02CDE99EF56?subscribers=1">
+</iframe>
+
+<!-- ⭐ STREAMELEMENTS -->
+<iframe
+class="yt-alerts streamelements"
+src="https://widgets.streamelements.com/host/68540c5cd3cd12896052616d/3f9d4782-d2e8-4b11-ae55-0539ec481601/NsFxLs-Z-27Gt5ee7GQk46-8aJGqJtoDWXtzXq6bU_VCvYDD">
+</iframe>
+
+</body>
+</html>
